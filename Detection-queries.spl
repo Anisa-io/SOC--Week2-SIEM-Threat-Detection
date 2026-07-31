@@ -1,0 +1,12 @@
+# 1. Failed Login Detection
+# Searches for the word "Failed" and counts the total occurrences.
+index=main "Failed" | stats count
+
+# 2. Event Timeline Analysis
+# Visualizes the volume of events over time to spot spikes in activity.
+index=main | timechart count
+
+# 3. Host Anomaly Detection
+# Groups events by host and filters for hosts with high activity (count > 5).
+index=main | stats count by host | where count > 5
+Added core SPL detection queries
