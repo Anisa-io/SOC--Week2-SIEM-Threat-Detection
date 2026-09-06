@@ -1,4 +1,4 @@
-# ️ SOC Week 2: SIEM Threat Detection with Splunk
+# ️  SIEM Threat Detection with Splunk
 
 ## **Project Overview**
 This repository documents my Week 2 SOC Analyst training, focusing on deploying Splunk Enterprise, ingesting Linux authentication logs, and writing SPL (Search Processing Language) queries to detect suspicious activity.
